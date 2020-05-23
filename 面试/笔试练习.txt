@@ -1,0 +1,2 @@
+1.dispatchservlet:前端控制器的实现，在web.xml文件中配置。前端的请求需通过其过滤，根据过滤的url去查询对应的handlermapping，找到并将这些请求分发到对应controller中，之后controller返回modelandview，dispatchservlet接收到之后查询一个或者多个viewresoler视图解析器，找到与modelandview对应的视图，返回给客户端带有结果的视图。
+2.
